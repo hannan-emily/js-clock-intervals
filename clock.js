@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   setInterval(function(){
     minute.style.transform = "rotate(" + degrees2 + "deg)";
     degrees2 = degrees2 + 6;
-  }, 6000);
+  }, 60000);
 
   //rotate hour hand
   var degrees3 = 0;
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   setInterval(function(){
     hour.style.transform = "rotate(" + degrees3 + "deg)";
-    degrees3 = degrees3 + 5;
+    degrees3 = degrees3 + 6;
   }, 3.6e+6);
 
 
